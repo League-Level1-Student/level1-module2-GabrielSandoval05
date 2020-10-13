@@ -14,8 +14,25 @@ Minion(String name, int eyes, String color, String master){
 	this.master = master; 
 	
 	
+	
 }
 
+public String getName() {
+	return name;
+}
 
+public int getEyes() {
+	return eyes;
+}
+public String getColor() {
+	return color;
+}
+public String getMaster() {
+	return master;
+}
+public void setMaster (String master) {
+	this.master = master;
+	//use this. to distinguish the two variables
+}
 
 }
